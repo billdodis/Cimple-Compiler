@@ -1322,7 +1322,7 @@ lineCounter = 1
 ccounter = 0
 yacc()
 #print("kalhspera\n")
-if (ccounter!=0):
+if (ccounter==0):
     writeToCFile()
 writeToIntFile()
 writeToSaFile()
